@@ -1,4 +1,4 @@
-# Finance Automation Script
+# GoCardless connection to Buchhaltungsbutler
 
 ## Overview
 This script automates the retrieval and booking of payout transactions from GoCardless to BuchhaltungsButler. It fetches payout data for a specific date range, matches them with transactions based on the reference, and books them into the accounting system.
@@ -16,7 +16,7 @@ Also update the booking timespan to the desired timeperiod :)
 ## Usage
 Run the script with:
 ```bash
-python finance_script.py
+python import_go_cardless_public.py
 ```
 The script will automatically:
 1. Fetch payouts from GoCardless.
